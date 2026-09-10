@@ -78,7 +78,7 @@ else:
     if velocityOfObjectUnits1[0].startswith("miles per hour" or "mph"):
         velocityOfObject1[0] = velocityOfObject1[0] * 0.447
     elif velocityOfObjectUnits1[0].startswith("millimeters"):
-        velocityOfObject1[0] = velocityOfObject1[0]*100*60*0.4470
+        velocityOfObject1[0] = velocityOfObject1[0]*1000*3600*0.4470
        
 
     #STEP 5A: PRINT THE REPORT
