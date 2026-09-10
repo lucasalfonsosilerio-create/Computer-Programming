@@ -8,7 +8,7 @@ massOfObjectUnits1 = [input("Is this in pounds or kilograms or bald eagles?").st
 print(massOfObjectUnits1[0])
 
 velocityOfObject1 = [float(input("What is the velocity of the object?"))] #converted into float
-velocityOfObjectUnits1 = [input("Is this in miles per hour or meters per seconds or in milimeters per hour?").strip().lower()]
+velocityOfObjectUnits1 = [input("Is this in miles per hour or meters per seconds or in millimeters per hour?").strip().lower()]
 print(velocityOfObjectUnits1[0])
 
 kineticEnergy1 = [1/2 * massOfObject1[0] * velocityOfObject1[0]**2]
@@ -28,7 +28,7 @@ if isThereASecondObject.startswith("y"):
     massOfObjectUnits1.append(input("Is this in pounds or kilograms?").strip().lower())
 
     velocityOfObject1.append(float(input("What is the velocity of the object? (in m/s)")))
-    velocityOfObjectUnits1.append(input("Is this in miles per hour or meters per seconds?").strip().lower())
+    velocityOfObjectUnits1.append(input("Is this in miles per hour or meters per seconds or in millimeters per hour?").strip().lower())
 
     #STEP 2A: CALCULATE FOR JOULES
     kineticEnergy1.append(1/2 * massOfObject1[1] * velocityOfObject1[1]**2)
