@@ -30,4 +30,35 @@ for x in age:
     elif x >= stage_of_life_list[4]:
         print(f"At {x}, this person is an elder.")
 
-usernames = []
+usernames = ["Emilia", "admin", "Jordan", "Julien", "Miguel"]
+
+if not usernames: 
+    print("Username list is empty")
+else:
+    for z in usernames:
+        if z == "admin":
+            print(f"Hello, {z.title()}, would you like a status report?")
+        elif z != "admin":
+            print(f"Hello {z}, welcome back.")
+
+current_Users = ["Emi", "Sinclair", "Luna", "Grant", "Jackson"]
+new_Users = ["emi", "luna", "tristan", "joaquin", "luke"]
+current_Users_lowercase = [current_Users[0].lower(), current_Users[1].lower(), current_Users[2].lower(), current_Users[3].lower(), current_Users[4].lower()]
+
+for i in new_Users:
+    if i in current_Users_lowercase:
+        print("This username is not avaliable, please choose a new one.")
+    else:
+        print("This username is avaliable.")
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+for m in numbers:
+    if m == 1:
+        print(f"{m}st")
+    elif m == 2:
+        print(f"{m}nd")
+    elif m == 3:
+        print(f"{m}rd")
+    else:
+        print(f"{m}th")
