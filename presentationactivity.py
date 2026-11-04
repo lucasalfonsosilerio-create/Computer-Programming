@@ -1,7 +1,6 @@
 grocery_list = [] #CREATES AN EMPTY LIST
 
 grocery_list.insert(0, "Milk") #ADDS A VALUE AT THE BEGINNING OF THE LIST, LISTS START AT INDEX 0
-print("INSERTS A VALUE AT INDEX 0")
 
 while True: #RUNS INDEFINITELY UNTIL BROKEN
     user_input = input("What do we want on our grocery list? ") #ASKS THE USER FOR A GROCERY TO ADD TO THE LIST
