@@ -50,3 +50,12 @@ if user_wants_star not in stars.keys():
     user_wants_star = input("Input a different star")
 else:
     print(stars[user_wants_star])
+
+observation_log = [
+    {"Star" : "Sirius", "Night" : 1, "Clear Sky" : False},
+    {"Star" : "Buzz", "Night" : 2, "Clear Sky" : False},
+    {"Star" : "Proxima Centauri", "Night" : 3, "Clear Sky" : True}
+]
+
+for e in range(len(observation_log)):
+    print(f"Star: {observation_log[e]["Star"]}, Night: {observation_log[e]["Night"]}, Clear Sky: {observation_log[e]["Clear Sky"]}, Mass: {stars[observation_log[e]["Star"]]["mass"]}")
