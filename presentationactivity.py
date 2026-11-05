@@ -13,4 +13,4 @@ while True: #RUNS INDEFINITELY UNTIL BROKEN
 
     print(grocery_list, len(grocery_list)) #PRINTS THE LIST AND THE LENGTH OF THE LIST
 
-print(grocery_list, len(grocery_list))
+print(grocery_list, len(grocery_list)) #PRINTS OUT LIST OF GROCERIES + LENGTH OF LIST
